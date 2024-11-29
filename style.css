@@ -1,0 +1,115 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #6A1B9A; /* Purple color */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.wave {
+    font-size: 1.5em;
+}
+
+.description {
+    margin: 20px 0;
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Social Media Icons */
+.social-links {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+/* Buttons */
+.action-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.contact-btn {
+    background-color: #6A1B9A; /* Purple color */
+}
+
+.resume-btn {
+    background-color: #333;
+}
+
+/* Illustration */
+.person {
+    width: 400px;
+    height: 500px;
+    display: flex;
+   
+}
